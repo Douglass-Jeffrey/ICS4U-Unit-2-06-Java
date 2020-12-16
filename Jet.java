@@ -1,7 +1,7 @@
 /*
 * This class creates a jet which is a type of airplane.
 *
-* @author  Jacob Bonner
+* @author  Douglass Jeffrey
 * @version 1.0
 * @since   2020-12-15
 */

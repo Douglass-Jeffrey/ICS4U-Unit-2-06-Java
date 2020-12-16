@@ -1,30 +1,33 @@
-/* 
-* This class sets and gets the speed of an airplane.
+/*
+* This class creates the airplane.
 *
 * @author  Douglass Jeffrey
 * @version 1.0
-* @since   2020-12-y14
+* @since   2020-12-16
 */
 
-// declaring airplane class
 public class Airplane {
-  // fields
-  int speed;
-  
-  //defining airplane constructor
-  public Airplane {
-    this.speed = 0
-    
-  }  
+  // set up fields
+  private int speed;
 
-  // Method for setting speed 
-  public void setSpeed(int userSpeed) {
-    this.speed = userspeed;
+  /**
+   * Setting field values with constructor.
+   */
+  public Airplane() {
+    this.speed = 0;
   }
-  
-  // Method for getting speed 
+
+  /**
+   * This method gets the speed of the airplane.
+   */
   public int getSpeed() {
-    
-    return speed;
+    return this.speed;
+  }
+
+  /**
+   * This method sets the speed of the airplane.
+   */
+  public void setSpeed(int userSpeed) {
+    this.speed = userSpeed;
   }
 }
